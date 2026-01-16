@@ -14,3 +14,15 @@ usuario["telefono"] = input("Dime su teléfono: ")
 print(usuario)
 usuario["correo"] = input("Dime su correo electrónico: ")
 print(usuario)
+
+#otra forma
+p=1
+while p !=0:
+    print("1.Añadir dato")
+    print("0.Salir")
+    p = int(input("Elige una opción: "))
+    if p == 1:
+        dato= input("Añade un dato: ")
+        valor= input("Añade valor a dato: ")
+        diccionario=[dato]= valor
+        print(diccionario)
